@@ -4500,7 +4500,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, Muli, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -5530,9 +5530,23 @@ button.btn-floating {
 .btn-large {
   height: 54px;
   line-height: 54px;
-  font-size: 15px;
+  font-size: 24px;
   padding: 0 28px;
+  width: 320px;
+  font-weight:900px;
 }
+
+#sign-in-button {
+  text-transform: none;
+  font-family: 'muli';
+  font-weight: 900;
+  box-shadow: none;
+  color: #EB0020 !important;
+  background: white !important;
+  border: 1px solid ;
+
+}
+
 
 .btn-large i {
   font-size: 1.6rem;
